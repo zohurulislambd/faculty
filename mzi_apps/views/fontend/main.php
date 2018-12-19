@@ -407,7 +407,7 @@
 
                                                 </div>
 
-                                                <h4 class="pubtitle">Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
+                                                <h4 class="pubtitle">Zohurul_____  Cultivating admiration in brands: Warmth, competence, and landing in the “golden quadrant”</h4>
                                                 <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
                                                 <div class="pubcite"><span class="label label-warning">Conference Papers</span> Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194</div>
 
@@ -419,7 +419,7 @@
                                         </div>
 
 
-                                        <div class="item mix book" data-year="2010">
+                                        <div class="item mix cpaper" data-year="2010">
                                             <div class="pubmain">
                                                 <div class="pubassets">
 
@@ -433,7 +433,7 @@
                                                 </div>
 
                                                 <h4 class="pubtitle">
-                                                    The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
+                                                   Zohurul_____ The Dragonfly Effect: Quick, Effective, and Powerful Ways To Use Social Media to Drive Social Change
                                                 </h4>
                                                 <div class="pubauthor"><strong>Jennifer Doe</strong>,  Emily N. Garbinsky, Kathleen D. Vohs</div>
                                                 <div class="pubcite">
@@ -892,36 +892,18 @@
                                 <h3>Currrent Teaching</h3>
                             </div>
                             <ul class="ul-dates">
-                                <li>
-                                    <div class="dates">
-                                        <span>Present</span>
-                                        <span>1995</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Preclinical Endodnotics</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dates">
-                                        <span>Present</span>
-                                        <span>2003</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>SELC 8160 Molar Endodontic Selective</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dates">
-                                        <span>Present</span>
-                                        <span>2010</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
+                                <?php foreach ($teaching as $data): ?>
+                                    <li>
+                                        <div class="dates">
+                                            <span><?= $data->end_year; ?></span>
+                                            <span><?= $data->start_year; ?></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4><?= $data->title; ?></h4>
+                                            <p><?= $data->short_descrip; ?></p></div>
+                                    </li>
+                                <?php endforeach; ?>
+
                             </ul>
                         </div>
                     </div>
@@ -933,56 +915,17 @@
                                 <h3>Teaching History</h3>
                             </div>
                             <ul class="ul-dates-gray">
-                                <li>
-                                    <div class="dates">
-                                        <span>1997</span>
-                                        <span>1995</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Preclinical Endodnotics</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dates">
-                                        <span>2005</span>
-                                        <span>2003</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>SELC 8160 Molar Endodontic Selective</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dates">
-                                        <span>2011</span>
-                                        <span>2010</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dates">
-                                        <span>2011</span>
-                                        <span>2010</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="dates">
-                                        <span>2011</span>
-                                        <span>2010</span>
-                                    </div>
-                                    <div class="content">
-                                        <h4>Endodontics Postdoctoral AEGD Program</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices ac elit sit amet porttitor. Suspendisse congue, erat vulputate pharetra mollis, est eros fermentum nibh, vitae rhoncus est arcu vitae elit.</p>
-                                    </div>
-                                </li>
+                                <?php foreach ($history_teaching as $data): ?>
+                                    <li>
+                                        <div class="dates">
+                                            <span><?= $data->end_year; ?></span>
+                                            <span><?= $data->start_year; ?></span>
+                                        </div>
+                                        <div class="content">
+                                            <h4><?= $data->title; ?></h4>
+                                            <p><?= $data->short_descrip; ?></p></div>
+                                    </li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>

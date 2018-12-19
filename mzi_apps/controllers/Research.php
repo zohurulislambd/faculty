@@ -40,7 +40,7 @@ class Research extends CI_Controller
         master_view('backend/research/research-list',$data);
     }
 
-    public function add_research_item()
+    public function add_research_item_original()
     {
         $message["uploads_error"] = "";
         if (!empty($_POST)){
@@ -73,6 +73,44 @@ class Research extends CI_Controller
         master_view('backend/research/add-research',$message);
     }
 
+    /**
+     * @param $id
+     */
+    public function add_research_item()
+    {
+        $datum = array('msg' => false);
+        if(!empty($_POST))
+        {
+            $this->validation->set_rules('title','Project Title','required');
+            $this->validation->set_rules('sub_title','Project sub Title');
+            $this->validation->set_rules('project_full_descrip','Project Description');
+
+            $config['upload_path']   = './uploads/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['max_size']      = 1024;
+            $config['max_width']     = 800;
+            $config['max_height']    = 600;
+            $this->load->library('upload', $config);
+
+            if ( ! $this->upload->do_upload('project_image')) {
+                $error = array('error' => $this->upload->display_errors());
+//            $this->load->view('upload_form', $error);
+                $datum['msg'] = false;
+                $datum['msg']= $error;
+            }
+
+            else {
+                $data = array('upload_data' => $this->upload->data());
+//            $this->load->view('upload_success', $data);
+                $datum['msg'] = false;
+                $datum['msg']= "Image was uploaded";
+                $this->mResearch->add_research_project();
+                redirect('Research/all_research');
+            }
+        }
+        master_view('backend/research/add-research',$datum);
+    }
+
     /*
      * update or Edit research information
      * */
@@ -84,13 +122,13 @@ class Research extends CI_Controller
             $this->validation->set_rules('title', 'Project Title', 'required');
             $this->validation->set_rules('sub_title', 'Project sub Title', 'required');
             $this->validation->set_rules('project_full_descrip', 'Project Description', 'required');
-        }
+            }
             $config= array(
                 'upload_path' => './uploads/',
                 'allowed_types' => 'gif|jpg|jpeg|png',
-                'max_size' => '1024',
-                'max_width' => '800',
-                'max_height' => '600',
+                'max_size' => 1024,
+                'max_width' => 800,
+                'max_height' => 600,
                 'encrypt_name' => true,
             );
 
@@ -110,7 +148,6 @@ class Research extends CI_Controller
                 'editable'=> $this->mResearch->get_single_research_project($id)
             );
             master_view('backend/research/edit-research',$data);
-
     }
 
     public function del_research($id)

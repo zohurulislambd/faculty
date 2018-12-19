@@ -38,7 +38,10 @@
         </li>
         <li class="#"><a href="<?= base_url('Research/all_research');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Research List</a></li>
         <li class="#"><a href="<?= base_url('Research/all_interest');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Interested List</a></li>
-        <li class="#"><a href="<?= base_url('Teaching/all_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Teaching</a></li>
+        <li class="#"><a href="<?= base_url('Publication/all_publication');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Publications List</a></li>
+
+        <li class="#"><a href="<?= base_url('Teaching/all_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Current Teaching</a></li>
+        <li class="#"><a href="<?= base_url('Teaching/all_history_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Teaching History</a></li>
 
         <li class="#"><a href="<?= base_url('Project/all_project');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Portfolios</a></li>
         <li class="#"><a href="<?= base_url('Service/service_cont');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Services</a></li>
@@ -56,6 +59,6 @@
 
         <li class="#"><a href="widgets.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
     </ul>
-    <div class="attribution"> Design  and Develop by <a href="#">Zohurul Islam</a></div>
+<!--    <div class="attribution"> Design  and Develop by <a href="#">Zohurul Islam</a></div>-->
 </div><!--/.sidebar-->
 

@@ -60,9 +60,7 @@ class Research_model extends CI_Model
     public function del_research_project($id)
     {
         $this->db->delete('research_project',array('id'=>$id));
-
     }
-
 
     /*
      * ===========================
@@ -100,8 +98,6 @@ class Research_model extends CI_Model
     {
         $this->db->delete('interested',array('id'=>$id));
     }
-
-
 
 
 }

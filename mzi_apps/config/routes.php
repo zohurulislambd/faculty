@@ -53,3 +53,8 @@ $route['default_controller'] = 'portfolio';
 $route['mzi-auth'] = 'Admin/index';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+/*
+ * To make the file upload proper
+ */
+$route['upload'] = 'Upload';

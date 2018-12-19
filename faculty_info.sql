@@ -475,7 +475,7 @@ ALTER TABLE `socail_media`
 --
 -- Indexes for table `teaching`
 --
-ALTER TABLE `teaching`
+ALTER TABLE current_teaching
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `teaching_id_uindex` (`id`);
 

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 15, 2018 at 02:19 PM
+-- Generation Time: Dec 19, 2018 at 01:41 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.10
 
@@ -140,6 +140,28 @@ INSERT INTO `contact_address` (`id`, `title`, `main_cont`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `current_teaching`
+--
+
+CREATE TABLE `current_teaching` (
+  `id` int(11) NOT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `start_year` varchar(100) DEFAULT NULL,
+  `end_year` varchar(100) DEFAULT NULL,
+  `short_descrip` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `current_teaching`
+--
+
+INSERT INTO `current_teaching` (`id`, `title`, `start_year`, `end_year`, `short_descrip`) VALUES
+(6, 'Pholosophy', '2015', 'Present', 'asdgdsgf'),
+(7, 'Preclinical Endodnotics', '2015', '2018', 'sdfsdfsdfsdfsdgsdfhdf d hdfh dfhdfh df dfdf hdfh');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `education`
 --
 
@@ -186,6 +208,29 @@ INSERT INTO `employment` (`id`, `designation`, `company`, `job_start_year`, `res
 (2, 'Lecturer', 'Techknow heaven LTD', '2012 ', 'Web site design and Website development.', '2016'),
 (3, 'Lecturer', 'Daffodil International University', '2016', 'Web site design and Website development.', '2018'),
 (4, 'Lecturer', 'Dhaka University', '2010', 'Teaching and l;dsafjklgashjklghklhgkldfhsklgdfg', '2016');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `history_teaching`
+--
+
+CREATE TABLE `history_teaching` (
+  `id` int(11) NOT NULL,
+  `title` varchar(150) DEFAULT NULL,
+  `start_year` varchar(50) DEFAULT NULL,
+  `end_year` varchar(50) DEFAULT NULL,
+  `short_descrip` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `history_teaching`
+--
+
+INSERT INTO `history_teaching` (`id`, `title`, `start_year`, `end_year`, `short_descrip`) VALUES
+(1, 'lecturer ', '2010', '2012 ', 'afsdfsdfsadfsfasfafasf'),
+(2, 'Preclinical Endodnotics', '2015', '2018', 'shdgjhsdjkghjkdsfh kj jksdfh gjk hdjkgh jkd kjdfhfjksg hjkdffh n\r\n[ sdfjg ouidfg idfsg\r\n ]dsfg jkosdfh gjsdf'),
+(4, 'Chairman of trusty board', '2010', '2016', 'asdgdsfgsdgsdgfsdfgsdgsdfgsdgsdfg');
 
 -- --------------------------------------------------------
 
@@ -299,6 +344,32 @@ INSERT INTO `project` (`id`, `project_name`, `project_link`, `short_desc`, `proj
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `publication`
+--
+
+CREATE TABLE `publication` (
+  `id` int(11) NOT NULL,
+  `title` varchar(200) DEFAULT NULL,
+  `author` varchar(200) DEFAULT NULL,
+  `type` varchar(100) DEFAULT NULL,
+  `book_info` varchar(200) DEFAULT NULL,
+  `photo` varchar(100) DEFAULT NULL,
+  `sub_title` varchar(200) DEFAULT NULL,
+  `description` varchar(1000) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `publication`
+--
+
+INSERT INTO `publication` (`id`, `title`, `author`, `type`, `book_info`, `photo`, `sub_title`, `description`) VALUES
+(2, 'Zohurul_____ Cultivating admiration in brands: Warmth,', 'Nure alam vi', 'Languestic', ' Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194', 'p5.jpg', 'Proven strategies for harnessing the power of social media to drive social change', 'Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
+(4, 'vfkhjfklhj', 'kldghjdfkl', 'klhkldfjl', 'dfhjkldfj', NULL, NULL, 'fhjklfjkdyjhklfgjhklfjkljhkl\r\n'),
+(7, 'westwetrss', 'sdgasdg', 'Jounal Papers', 'asdgasdg', NULL, NULL, 'asdgasdgasdg');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `research_project`
 --
 
@@ -315,8 +386,10 @@ CREATE TABLE `research_project` (
 --
 
 INSERT INTO `research_project` (`id`, `title`, `sub_title`, `project_image`, `project_full_descrip`) VALUES
-(1, 'Title of Preject', 'Very short description of the project.', 'p5.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n'),
-(2, 'Title of Preject', 'Very short description of the project.', 'e4e7a6cb208564841852d516cb2368c8.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ');
+(1, 'Title of Preject 111', 'Very short description of the project.', 'de920f76cb0e2b223274cd10955c10eb.png', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n'),
+(2, 'Title of Preject', 'Very short description of the project.', 'e4e7a6cb208564841852d516cb2368c8.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. '),
+(3, 'TITLE', 'SUBTITLE', 'bc2bda417afd7909bb0bba05a4e8c754.jpg', 'DA SSFASDFDAFD'),
+(4, 'asdfasdfasdf', 'asdfasdfasdfasd', '966af495e861569851c8e684514796f7.png', 'asdfsdfasdfsadfsadfsad  fasf sd fasf');
 
 -- --------------------------------------------------------
 
@@ -363,20 +436,6 @@ INSERT INTO `socail_media` (`id`, `class_name`, `link`) VALUES
 (2, 'fa fa-twitter', 'https://twitter.com/Zohurul43'),
 (3, 'fa fa-linkedin', 'https://www.linkedin.com/in/zohurul-islam-49a541115/');
 
--- --------------------------------------------------------
-
---
--- Table structure for table `teaching`
---
-
-CREATE TABLE `teaching` (
-  `id` int(11) NOT NULL,
-  `title` varchar(100) DEFAULT NULL,
-  `start_year` varchar(100) DEFAULT NULL,
-  `end_year` varchar(100) DEFAULT NULL,
-  `short_descrip` varchar(500) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
 -- Indexes for dumped tables
 --
@@ -413,6 +472,12 @@ ALTER TABLE `contact_address`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `current_teaching`
+--
+ALTER TABLE `current_teaching`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `education`
 --
 ALTER TABLE `education`
@@ -423,6 +488,13 @@ ALTER TABLE `education`
 --
 ALTER TABLE `employment`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `history_teaching`
+--
+ALTER TABLE `history_teaching`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `history_teaching_id_uindex` (`id`);
 
 --
 -- Indexes for table `interested`
@@ -455,6 +527,12 @@ ALTER TABLE `project`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `publication`
+--
+ALTER TABLE `publication`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `research_project`
 --
 ALTER TABLE `research_project`
@@ -471,13 +549,6 @@ ALTER TABLE `services`
 --
 ALTER TABLE `socail_media`
   ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `teaching`
---
-ALTER TABLE current_teaching
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `teaching_id_uindex` (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -514,6 +585,12 @@ ALTER TABLE `contact_address`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
+-- AUTO_INCREMENT for table `current_teaching`
+--
+ALTER TABLE `current_teaching`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
 -- AUTO_INCREMENT for table `education`
 --
 ALTER TABLE `education`
@@ -523,6 +600,12 @@ ALTER TABLE `education`
 -- AUTO_INCREMENT for table `employment`
 --
 ALTER TABLE `employment`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `history_teaching`
+--
+ALTER TABLE `history_teaching`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
@@ -556,10 +639,16 @@ ALTER TABLE `project`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
+-- AUTO_INCREMENT for table `publication`
+--
+ALTER TABLE `publication`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
 -- AUTO_INCREMENT for table `research_project`
 --
 ALTER TABLE `research_project`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `services`

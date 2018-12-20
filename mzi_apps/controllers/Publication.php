@@ -26,14 +26,10 @@ class Publication Extends CI_Controller
         master_view("backend/publication/publication",$data);
     }
 
-    /**
-     *
-     */
-
-
     public function add_publication()
     {
         $datum = array('msg' => false);
+
         if (!empty($_POST)) {
             $this->validation->set_rules('title', 'Title', 'required');
             $this->validation->set_rules('author', 'Author', 'required');
@@ -42,55 +38,74 @@ class Publication Extends CI_Controller
             $this->validation->set_rules('sub_title', 'Sub Title', 'required');
             $this->validation->set_rules('description', 'description', 'required');
 
-            $config =array(
-            'upload_path' => './uploads/',
-            'allowed_types' => 'gif|jpg|png',
-            'overwrite' => TRUE,
-            'max_size' => 1024,
-            'max_width' => 800,
-            'max_height' => 600,
-            );
-
+            $config['upload_path'] = './uploads/publications/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config ['override'] = TRUE;
+            $config['max_size'] = 1024;
+            $config['max_width'] = 800;
+            $config['max_height'] = 600;
             $this->load->library('upload', $config);
-
-            $field_name = "photo";
-            $this->upload->do_upload($field_name);
 
             if (!$this->upload->do_upload('photo')) {
                 $error = array('error' => $this->upload->display_errors());
-//            $this->load->view('upload_form', $error);
                 $datum['msg'] = false;
                 $datum['msg'] = $error;
             } else {
                 $data = array('upload_data' => $this->upload->data());
-//            $this->load->view('upload_success', $data);
                 $datum['msg'] = false;
                 $datum['msg'] = "Image was uploaded";
                 $this->mPublication->add_publication();
-                redirect("Publication/all_publication");
+                redirect('Publication/all_publication');
             }
-
         }
-        master_view("backend/publication/add_publication");
+        master_view('backend/publication/add_publication', $datum);
     }
+
+
 
 
 
     public function edit_publication($id){
-        if (is_submitted()){
-            $this->mPublication->edit_publication($id);
-            redirect("Publication/all_publication");
+        if (!empty($_POST)) {
+            $this->validation->set_rules('title', 'Title', 'required');
+            $this->validation->set_rules('author', 'Author', 'required');
+            $this->validation->set_rules('type', 'Type', 'required');
+            $this->validation->set_rules('book_info', 'Book Info', 'required');
+            $this->validation->set_rules('sub_title', 'Sub Title', 'required');
+            $this->validation->set_rules('description', 'description', 'required');
         }
-        $data= array(
-            'editable'=>$this->mPublication->get_single_publication($id)
-        );
-        master_view("backend/publication/edit_publication",$data);
+            $config['upload_path'] = './uploads/publications/';
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config ['override'] = TRUE;
+            $config['max_size'] = 1024;
+            $config['max_width'] = 800;
+            $config['max_height'] = 600;
+
+            $this->load->library('upload', $config);
+
+            $this->upload->initialize($config);
+            if ($this->upload->do_upload('photo')){
+                if ($this->validation->run()){
+                    $this->mPublication->edit_publication($id);
+                    $data['message'] = "Publication info Update successful!!!";
+                    redirect('Publication/all_publication');
+                }else{
+                    print_r($this->upload->display_errors());
+                    return;
+                }
+            }
+            $data= array(
+                'editable'=>$this->mPublication->get_single_publication($id)
+            );
+            master_view("backend/publication/edit_publication",$data);
     }
+
 
     public function del_publication($id){
         $this->mPublication->delete_publication("$id");
         redirect("Publication/all_publication");
     }
+
 
 
 }

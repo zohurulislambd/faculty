@@ -2,27 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22cf74a6-102f-4646-bb91-19ab60ec0cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mzi_apps/controllers/Publication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/models/Publication_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/teaching/add_history_teaching.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/teaching/add_teaching.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/teaching/edit-history-teaching.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/teaching/edit-teaching.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/teaching/history_teaching.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/teaching/teaching.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bab2ed82-2450-4a2c-bb14-37fb1d31a89c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bab2ed82-2450-4a2c-bb14-37fb1d31a89c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faculty_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/faculty_info.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Publication.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Research.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Research.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Teaching.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Teaching.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/models/Research_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/models/Research_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/models/Teaching_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/models/Teaching_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/models/Publication_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/models/Publication_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/16d16934f8aa7f150851ca61fa475904.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1dd41adaa3084efb0e0fb9b38926a92d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/25f496687f81a2c073c4fd53227ac596.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/28a552f411a0ec28a97b17a7de265140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/33e6a9a19191055924d10a1754803e14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/42e2b4a91d447fd47775dcfbddeae5d2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/4de7387aebd4261d78c376a47fa95fe0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/5311b1a8908f3848dcbef0e027391c99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/62fd18f5482e5f52b44c5450b8f92322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/6aca9d13d4fa18dda8441498fe2395c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/73c40370f04f11683327fe42b056efe4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/7aa826ca2b20135109b5096b69d940bf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/8125442664bbab6cd6388cf05605ca3c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/8a77e8014e662fc823bec9a023415f53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/9497f91e85608a95b148698bcffefc07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/966af495e861569851c8e684514796f7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/9d67e2482ceff2e3697e165681341a5f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Nobel_Prize8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a26c3f5712110c49fe987926d0f27402.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/ad70e4a7996055db122cb2301b24e2d6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/bc2bda417afd7909bb0bba05a4e8c754.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/cf802976ff40cb56f8d18c59806ac02d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/de920f76cb0e2b223274cd10955c10eb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/e018bc22baaaf3c839569f6d7647be85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/e4e7a6cb208564841852d516cb2368c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/ed5e40cc5a36be03fd32ce1b81415365" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/eff3233525c2e6e7db27b050d0a6bba4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/f7e640cb156a1c790e8bab999a782153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/fc8380adf733dcfdefbbc8ad86516878.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/fdbdfae809cf2bd92f6c2ab41605372e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/jennifer-doe1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/site-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/site-logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/site-logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/site-logo3.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,25 +94,52 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.84621155">
+    <splitter split-orientation="horizontal" split-proportion="0.6938776">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="341">
+                <state>
                   <caret line="425" column="63" selection-start-line="425" selection-start-column="63" selection-end-line="425" selection-end-column="63" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Publication.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="488">
-                  <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+                <state relative-caret-position="510">
+                  <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="60" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="389">
+                  <caret line="55" column="65" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="65" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="443">
+                  <caret line="45" column="126" selection-start-line="45" selection-start-column="126" selection-end-line="45" selection-end-column="126" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="406">
+                  <caret line="49" column="34" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="49" selection-end-column="34" />
                   <folding>
-                    <element signature="e#6#187#0#PHP" expanded="true" />
+                    <element signature="n#style#0;n#select#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -91,29 +148,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Research.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="62" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="62" />
-                  <folding>
-                    <element signature="n#style#0;n#select#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+                <state relative-caret-position="459">
+                  <caret line="145" column="13" lean-forward="true" selection-start-line="135" selection-start-column="11" selection-end-line="145" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -121,8 +157,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+                <state relative-caret-position="318">
+                  <caret line="36" column="132" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="132" />
                 </state>
               </provider>
             </entry>
@@ -130,8 +166,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+                <state relative-caret-position="233">
+                  <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="34" selection-end-column="91" />
                 </state>
               </provider>
             </entry>
@@ -143,11 +179,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mzi_apps/models/Publication_model.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#6#164#0#PHP" expanded="true" />
-                  </folding>
+                <state relative-caret-position="442">
+                  <caret line="46" column="5" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/models/Research_model.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -171,6 +213,8 @@
       <find>add_teaching</find>
       <find>base_</find>
       <find>Cultivating admiration in brands: Warmth, competence, and landing in the</find>
+      <find>file_name</find>
+      <find>photo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,18 +249,22 @@
         <option value="$PROJECT_DIR$/mzi_apps/helpers/MZI_controller_helper.php" />
         <option value="$PROJECT_DIR$/mzi_apps/config/autoload.php" />
         <option value="$PROJECT_DIR$/mzi_apps/controllers/Teaching.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/mzi_apps/config/routes.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/controllers/Research.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Research_model.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/models/Publication_model.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/test.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/upload_success.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/upload_form.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Research.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/models/Publication_model.php" />
         <option value="$PROJECT_DIR$/mzi_apps/controllers/Publication.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php" />
       </list>
     </option>
   </component>
@@ -250,12 +298,6 @@
               <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
               <item name="faculty" type="462c0819:PsiDirectoryNode" />
               <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,14 +312,6 @@
               <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
@@ -304,11 +338,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend\teaching" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,17 +383,17 @@
       <workItem from="1545022213198" duration="11952000" />
       <workItem from="1545106765230" duration="20952000" />
       <workItem from="1545193225797" duration="13365000" />
+      <workItem from="1545279210773" duration="18212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78663000" />
+    <option name="totallyTimeSpent" value="96875000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19858612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -378,7 +412,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.03084833" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.037275065" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,20 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/publication">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/research_project">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -727,51 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="425" column="63" selection-start-line="425" selection-start-column="63" selection-end-line="425" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Research_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="56" column="70" lean-forward="true" selection-start-line="51" selection-end-line="56" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Publication_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#164#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -779,30 +754,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php">
+    <entry file="file://$PROJECT_DIR$/mzi_apps/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="62" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Research.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/upload_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/upload_success.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="425" column="63" selection-start-line="425" selection-start-column="63" selection-end-line="425" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="36" column="132" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/publication">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Research_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Publication_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Publication.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="510">
+          <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="34" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/edit_publication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="49" selection-end-column="34" />
           <folding>
-            <element signature="e#6#187#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/publication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="55" column="65" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Research.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="145" column="13" lean-forward="true" selection-start-line="135" selection-start-column="11" selection-end-line="145" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="45" column="126" selection-start-line="45" selection-start-column="126" selection-end-line="45" selection-end-column="126" />
         </state>
       </provider>
     </entry>

@@ -50,8 +50,9 @@
                                 <td><?= $record->title; ?></td>
                                 <td><?= $record->author; ?></td>
                                 <td><?= $record->type; ?></td>
+
                                 <td><?= $record->book_info; ?></td>
-                                <td><img src="<?php echo base_url('uploads/').$record->photo; ?>" alt="Publication image" width="100px"></td>
+                                <td><img src="<?php echo base_url('uploads/publications/').$record->photo; ?>" alt="Publication image" width="100px"></td>
                                 <td><?= substr($record->sub_title,0,50); ?></td>
                                 <td><?= substr($record->description,0,60); ?></td>
                                 <td>

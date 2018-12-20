@@ -6,6 +6,7 @@
  * Time: 11:49 AM
  * @property CI_Input  input
  * @property CI_DB_query_builder  db
+ * @property CI_Upload  upload
  */
 
 class Publication_model extends CI_Model
@@ -27,23 +28,22 @@ class Publication_model extends CI_Model
             return $q->row();
         }return null;
     }
-    public function add_publication(){
-        $data = $this->input->post(null, true);
+
+    public function add_publication()
+    {
+        $data =  $this->input->post(null,true);
+        $data ['photo']= $this->upload->data('file_name');
         $this->db->insert('publication',$data);
     }
 
-
     public function edit_publication($id){
         $data = $this->input->post(null, true);
-
+        $data ['photo']= $this->upload->data('file_name');
         //delete previus image code
         $oldData = $this->db->get_where("publication",array('id'=>$id))->row();
-        $oldFileName = $oldData->project_image;
-        unlink(BASEPATH."/uploads/$oldFileName");
+        $oldFileName = $oldData->photo;
+        unlink(BASEPATH."/uploads/publications/$oldFileName");
         $this->db->update('publication',$data, array('id'=>$id));
-
-
-        $this->db->update('publication',$data,array('id'=>$id));
     }
     public function delete_publication($id){
         $this->db->delete('publication',array('id'=>$id));

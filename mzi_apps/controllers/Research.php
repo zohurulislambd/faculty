@@ -40,7 +40,7 @@ class Research extends CI_Controller
         master_view('backend/research/research-list',$data);
     }
 
-    public function add_research_item_original()
+   /* public function add_research_item_original()
     {
         $message["uploads_error"] = "";
         if (!empty($_POST)){
@@ -71,7 +71,7 @@ class Research extends CI_Controller
 
         }
         master_view('backend/research/add-research',$message);
-    }
+    }*/
 
     /**
      * @param $id
@@ -92,7 +92,7 @@ class Research extends CI_Controller
             $config['max_height']    = 600;
             $this->load->library('upload', $config);
 
-            if ( ! $this->upload->do_upload('project_image')) {
+            if (! $this->upload->do_upload('project_image')) {
                 $error = array('error' => $this->upload->display_errors());
 //            $this->load->view('upload_form', $error);
                 $datum['msg'] = false;

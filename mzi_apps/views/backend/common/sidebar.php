@@ -43,7 +43,7 @@
         <li class="#"><a href="<?= base_url('Teaching/all_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Current Teaching</a></li>
         <li class="#"><a href="<?= base_url('Teaching/all_history_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Teaching History</a></li>
 
-        <li class="#"><a href="<?= base_url('Project/all_project');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Portfolios</a></li>
+        <li class="#"><a href="<?= base_url('Gallery/all_gallery');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Gallerys</a></li>
         <li class="#"><a href="<?= base_url('Service/service_cont');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Services</a></li>
 
         <li class="parent">

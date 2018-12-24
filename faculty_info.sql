@@ -330,7 +330,7 @@ CREATE TABLE `project` (
 -- Dumping data for table `project`
 --
 
-INSERT INTO `project` (`id`, `project_name`, `project_link`, `short_desc`, `project_feature`) VALUES
+INSERT INTO gallery (`id`, title, `project_link`, short_description, gallery_feature) VALUES
 (3, 'This is project', 'http://techknowheaven.com/', 'TKH  is a IT firm of Bangladesh', 'c15d0298513e8b87f5afe4ad2585b6f4.jpg'),
 (5, 'Team Critix', 'http://teamcritix.com/', 'Team Critix is the official Gaming Clan Team', 'de0c59539b778cdbcd96815a03beccda.jpg'),
 (6, 'Professor Dr. Raqibul Anwar', 'http://professorraqibulanwar.com/', 'Medical Service website of Professor Dr. Raqibul Anwar', '2c1ef7d41d21218bbd471a5cdc53dcec.jpg'),
@@ -523,7 +523,7 @@ ALTER TABLE `personal_skill`
 --
 -- Indexes for table `project`
 --
-ALTER TABLE `project`
+ALTER TABLE gallery
   ADD PRIMARY KEY (`id`);
 
 --
@@ -635,7 +635,7 @@ ALTER TABLE `personal_skill`
 --
 -- AUTO_INCREMENT for table `project`
 --
-ALTER TABLE `project`
+ALTER TABLE gallery
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --

@@ -19,34 +19,42 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Change project content</div>
+                <div class="panel-heading">Change your website logo</div>
                 <div class="panel-body">
                     <?= !empty($message)? $message:' '?>
-                    <?= validation_errors(); ?>
+<!--                    --><?//= validation_errors(); ?>
                     <div class="col-md-6">
                         <form action="" method="post" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label>Project Title</label>
-                                <input name="project_name" class="form-control" type="text" value="<?= $editable->project_name ?>" />
+                                <label for="title">Gallery Title </label>
+                                <input name="title" id="title" class="error form-control" type="text" placeholder="project name"/>
+                                <p class="error_p"> <?php echo validation_errors(); ?></p>
+                                <style>
+                                    .error_p+p{
+                                        color: #ff0033;
+                                    }
+                                </style>
                             </div>
                             <div class="form-group">
-                                <label>Project link</label>
-                                <input name="project_link" class="form-control" type="text" value="<?= $editable->project_link ?>"/>
+                                <label for="project_link">Gallery link</label>
+                                <input name="project_link" id="project_link" class="form-control" type="text" placeholder="project link"/>
                             </div>
                             <div class="form-group">
-                                <label>Project decs</label>
-                                <textarea name="short_desc" class="form-control" id="" cols="30" rows="2"><?= $editable->short_desc ?></textarea>
+                                <label for="short_description">Gallery Sescription</label>
+                                <textarea name="short_description" class="form-control" id="short_description" cols="30" rows="2" placeholder="project desc"></textarea>
                             </div>
                             <div class="form-group">
-                                <label>Featured Image</label>
-                                <input name="project_feature" type="file" /> <br>
-                                <img src="<?= base_url('uploads/'.$editable->project_feature); ?>" width="150px" alt="">
-                                <p class="help-block">project feature destination size must be max 600px*400px.</p>
+                                <label for="gallery_feature">Featured Image</label>
+                                <input name="gallery_feature" id="gallery_feature" type="file"/>
+                                <p class="help-block">Gallery feature destination size must be max 600px*400px.</p>
+
+<!--                                --><?php // echo $data['upload_error'];?>
+
                             </div>
 
                             <button type="submit" class="btn btn-primary">Add Project</button>
                             <button type="reset" class="btn btn-default">Cancel</button>
-                        </form>
+                    </form>
                     </div>
                 </div>
             </div>

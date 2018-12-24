@@ -21,8 +21,8 @@
                 <div class="col-md-6">
                     <div class="panel-heading">Advanced Table</div>
                 </div>
-                <div class="col-md-6">
-                    <div class="panel-heading"><a href="<?= base_url('Contact/add_cont_address'); ?>"><button class="btn-success btn-small">Add New Address</button></a></div>
+                <div class="col-md-6 text-right">
+                    <div class="panel-heading"><a href="<?= base_url('Contact/add_cont_address'); ?>"><button type="button" class="btn btn-success btn-sm">Add New Address</button></a></div>
                 </div>
                 <div class="panel-body">
                     <table data-toggle="table">
@@ -43,8 +43,8 @@
                                 <td><?= $record->title; ?></td>
                                 <td><?= substr($record->main_cont,0,100); ?></td>
                                 <td>
-                                    <a href="<?= base_url('Contact/edit_cont_add/'.$record->id) ?>"><button class="btn-warning">Edit</button></a>
-                                    <a href="<?= base_url('Contact/del_cont_add/'.$record->id) ?>" onclick="return confirm('Your are deleting this item!')"><button class="btn-danger">Delete</button></a>
+                                    <a href="<?= base_url('Contact/edit_cont_add/'.$record->id) ?>"><button type="button" class="btn btn-warning btn-sm">Edit</button></a>
+                                    <a href="<?= base_url('Contact/del_cont_add/'.$record->id) ?>" onclick="return confirm('Your are deleting this item!')"><button type="button" class="btn btn-danger btn-sm">Delete</button></a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

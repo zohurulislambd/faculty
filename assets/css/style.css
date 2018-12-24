@@ -1124,6 +1124,30 @@ ul.grid li a,ul.grid li img {
 	color: #fff;
 }
 
+.contactForm {margin: 0 0 50px 0;}
+.contactForm h1 {
+	letter-spacing: 5px;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.cotact_address h3 {
+	font-size: 22px;
+	color: #040404;
+	margin-left: 30px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+.cotact_address ul li{
+	margin-left: 30px;
+}
+
+
+
+
 /*.contact-office .icon-huge, .contact-lab .icon-huge{
 	color: #03cc85;
 }*/

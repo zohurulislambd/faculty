@@ -19,33 +19,34 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Change your website logo</div>
+                <div class="panel-heading">Change project content</div>
                 <div class="panel-body">
                     <?= !empty($message)? $message:' '?>
                     <?= validation_errors(); ?>
                     <div class="col-md-6">
                         <form action="" method="post" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label>Project Title</label>
-                                <input name="project_name" class="form-control" type="text" placeholder="project name"/>
+                                <label>Gallery Title</label>
+                                <input name="title" class="form-control" type="text" value="<?= $editable->title ?>" />
                             </div>
                             <div class="form-group">
                                 <label>Project link</label>
-                                <input name="project_link" class="form-control" type="text" placeholder="project link"/>
+                                <input name="project_link" class="form-control" type="text" value="<?= $editable->project_link ?>"/>
                             </div>
                             <div class="form-group">
                                 <label>Project decs</label>
-                                <textarea name="short_desc" class="form-control" id="" cols="30" rows="2" placeholder="project desc"></textarea>
+                                <textarea name="short_description" class="form-control" id="" cols="30" rows="2"><?= $editable->short_description ?></textarea>
                             </div>
                             <div class="form-group">
                                 <label>Featured Image</label>
-                                <input name="project_feature" type="file"/>
-                                <p class="help-block">project feature destination size must be max 600px*400px.</p>
+                                <input name="gallery_feature" type="file" /> <br>
+                                <img src="<?= base_url('uploads/gallery/'.$editable->gallery_feature); ?>" width="150px" alt="">
+                                <p class="help-block">Gallery feature destination size must be max 1920px*1600px.</p>
                             </div>
 
                             <button type="submit" class="btn btn-primary">Add Project</button>
                             <button type="reset" class="btn btn-default">Cancel</button>
-                    </form>
+                        </form>
                     </div>
                 </div>
             </div>

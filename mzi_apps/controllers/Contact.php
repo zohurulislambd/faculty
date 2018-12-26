@@ -33,19 +33,29 @@ class Contact extends CI_Controller
     }
 
     public function contact_us(){
+        $data = array("is_postback" => false,"msg" => '');
         if (is_submitted()){
+
+            $data["is_postback"] = true;
+
             $this->validation->set_rules('name','Name','required');
-            $this->validation->set_rules('email','Email','required|valid_email', [
+            $this->validation->set_rules('email','Email','required|valid_email', array(
                 "validation"=>"Why don\'t you fill the email field!",
                 "required"=>"Your email address seems invalid!"
-            ]);
+            ));
             $this->validation->set_rules('phone','Phone','required');
             $this->validation->set_rules('subject','Subject');
             $this->validation->set_rules('message','Message');
             if ($this->validation->run()){
                 $this->mContact->add_contact_info();
+                $data["msg"] = "Done";
+            }
+            else
+            {
+                $data["msg"] = "Done";
             }
             redirect($_SERVER['HTTP_REFERER']);
+//            master_view('fontend/main', $data);
         }
     }
 

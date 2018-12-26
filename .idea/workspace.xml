@@ -62,38 +62,29 @@
         <item name="faculty_info: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="contact_address: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="faculty_info@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="faculty_info: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="socail_media: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
-  <component name="DockManager">
-    <window id="5">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/address.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="272">
-                    <caret line="46" column="206" selection-start-line="46" selection-start-column="206" selection-end-line="46" selection-end-column="206" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8522305">
+    <splitter split-orientation="horizontal" split-proportion="0.67866784">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="606" column="22" lean-forward="true" selection-start-line="606" selection-start-column="22" selection-end-line="606" selection-end-column="22" />
+                <state relative-caret-position="404">
+                  <caret line="381" column="42" lean-forward="true" selection-start-line="381" selection-start-column="42" selection-end-line="381" selection-end-column="42" />
                   <folding>
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#h2#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
@@ -101,15 +92,72 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/add_address.php">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/common/footer.php">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/address.php">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/About.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+                <state relative-caret-position="301">
+                  <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Banner.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="471">
+                  <caret line="58" selection-start-line="58" selection-end-line="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Social_media.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="56" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="56" />
+                  <folding>
+                    <element signature="e#6#124#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/social-media/all_socail_media.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="573">
+                  <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Contact.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="54" column="26" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/config/config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-951">
+                  <caret line="184" column="29" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -117,53 +165,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="539">
-                  <caret line="55" column="16" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/contact_address">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="27" column="50" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Gallery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="485">
-                  <caret line="76" column="47" lean-forward="true" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/gallery_all.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
-                  <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/edit_gallery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+                <state relative-caret-position="527">
+                  <caret line="55" column="20" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#6#453#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -175,7 +181,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/models/Gallery_model.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
+                <state relative-caret-position="595">
                   <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
                 </state>
               </provider>
@@ -186,11 +192,53 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="1122" column="43" selection-start-line="1122" selection-start-column="43" selection-end-line="1122" selection-end-column="43" />
+                <state relative-caret-position="295">
+                  <caret line="94" column="21" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="94" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/models/Contact_model.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/socail_media">
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/models/Social_media_model.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+                  <folding>
+                    <element signature="e#6#114#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/models/Banner_model.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#6#160#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -230,21 +278,19 @@
       <find>Sub Title</find>
       <find>validation_errors</find>
       <find>At My Work</find>
+      <find>soc</find>
+      <find>get_contact</find>
+      <find>contact</find>
+      <find>icon-facebook</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mzi_apps/controllers/Biodata.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/research/add-interest.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/research/interest-list.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/research/edit-interest.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/biodata/biodata.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/biodata/employment.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/biodata/awards-list.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/research/research-list.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Bio_model.php" />
         <option value="$USER_HOME$/Desktop/Biggmall-20181215T102422Z-001/Biggmall/tmdemo25.mybigcommerce.com/index.html" />
@@ -278,20 +324,28 @@
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/publication/add_publication.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Project_model.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/gallery/gallery_all.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/gallery/edit_gallery.php" />
         <option value="$PROJECT_DIR$/mzi_apps/controllers/Gallery.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Gallery_model.php" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/contacts/address.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/contacts/contact.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Contact.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Banner.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/models/Banner_model.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/models/Social_model.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/models/Social_media_model.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Social_media.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/social-media/all_socail_media.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1346" />
@@ -305,6 +359,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -341,32 +396,39 @@
               <item name="faculty" type="462c0819:PsiDirectoryNode" />
               <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+              <item name="fontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faculty" type="462c0819:PsiDirectoryNode" />
+              <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="fontend" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.5.1/resources/app/git/mingw64/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend\social-media" />
+      <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend\teaching" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\faculty\mzi_apps\views\backend" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -411,17 +473,18 @@
       <workItem from="1545470162401" duration="70000" />
       <workItem from="1545544697436" duration="12838000" />
       <workItem from="1545626540638" duration="10282000" />
+      <workItem from="1545796152295" duration="1430000" />
+      <workItem from="1545809037814" duration="10731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120065000" />
+    <option name="totallyTimeSpent" value="132226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17994858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18251929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -440,7 +503,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.1285347" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.10347044" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.088046275" />
@@ -469,202 +532,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Bio_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Biggmall-20181215T102422Z-001/Biggmall/tmdemo25.mybigcommerce.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#13776#13782#1" expanded="true" />
-            <element signature="e#17501#17506#0" expanded="true" />
-            <element signature="e#18451#18456#0" expanded="true" />
-            <element signature="e#23778#23783#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#90597#90602#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#117481#117486#0" expanded="true" />
-            <element signature="e#117663#117667#0" expanded="true" />
-            <element signature="e#117667#117671#0" expanded="true" />
-            <element signature="e#118214#118219#0" expanded="true" />
-            <element signature="e#118395#118399#0" expanded="true" />
-            <element signature="e#118399#118403#0" expanded="true" />
-            <element signature="e#118948#118953#0" expanded="true" />
-            <element signature="e#119129#119133#0" expanded="true" />
-            <element signature="e#119133#119137#0" expanded="true" />
-            <element signature="e#119684#119689#0" expanded="true" />
-            <element signature="e#119865#119869#0" expanded="true" />
-            <element signature="e#119869#119873#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#0;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#1;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#3;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#4;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#5;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#6;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#157959#157964#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#7;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#8;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#8;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#8;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#9;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#9;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#9;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#10;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#10;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#10;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#11;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#article#0;n#div#11;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#article#0;n#div#11;n#section#0;n#div#0;n#div#1;n#main#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#p#0;n#article#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#192802#192807#0" expanded="true" />
-            <element signature="e#194649#194655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Biodata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="87" selection-start-line="55" selection-start-column="4" selection-end-line="87" />
-          <folding>
-            <element signature="e#6#252#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/research-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="52" column="207" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/teaching">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/biodata/biodata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/history_teaching">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/teaching/add_history_teaching.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/teaching/history_teaching.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="88" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/teaching/add_teaching.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="100" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/teaching/teaching.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Teaching_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/helpers/MZI_model_helper.php" />
-    <entry file="file://$PROJECT_DIR$/mzi_apps/helpers/MZI_controller_helper.php" />
     <entry file="file://$PROJECT_DIR$/mzi_apps/helpers/mzi_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -711,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
           <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -779,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="45" column="175" selection-start-line="45" selection-start-column="175" selection-end-line="45" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/models/Publication_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -821,10 +674,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/edit_gallery.php">
+    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/contact_address">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+        <state relative-caret-position="459">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -835,16 +702,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/gallery">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/edit_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/models/Gallery_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="595">
           <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
@@ -852,58 +719,163 @@
     <entry file="file://$PROJECT_DIR$/assets/custom-style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1122" column="43" selection-start-line="1122" selection-start-column="43" selection-end-line="1122" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/contact_address">
+    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/gallery">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php">
+    <entry file="file://$USER_HOME$/Downloads/hrm-master/hrm-master/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Gallery.php">
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/add_address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="76" column="47" lean-forward="true" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        <state relative-caret-position="442">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="94" column="21" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="94" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-951">
+          <caret line="184" column="29" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Contact_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/About.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="92" column="37" lean-forward="true" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Banner_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/social-media/all_socail_media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Social_media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="e#6#124#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#453#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/common/footer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Social_media_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#6#114#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/socail_media">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="606" column="22" lean-forward="true" selection-start-line="606" selection-start-column="22" selection-end-line="606" selection-end-column="22" />
+        <state relative-caret-position="404">
+          <caret line="381" column="42" lean-forward="true" selection-start-line="381" selection-start-column="42" selection-end-line="381" selection-end-column="42" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/add_address.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/contacts/address.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
         </state>
       </provider>
     </entry>

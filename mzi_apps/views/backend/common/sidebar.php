@@ -11,7 +11,7 @@
 
         <li class="#"><a href="<?= base_url('Logo/logo_list');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Logo</a></li>
         <li class="#"><a href="<?= base_url('Banner/banner_cont');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Banner</a></li>
-        <li class="#"><a href="<?= base_url('Banner/get_socail_link');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Socail Media</a></li>
+        <li class="#"><a href="<?= base_url('Social_media/get_socail_link');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Socail Media</a></li>
 <!--        <li class="#"><a href="--><?//= base_url('About/about_cont');?><!--"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> About </a></li>-->
         <li class="parent ">
             <a data-toggle="collapse" href="#sub-item-1">

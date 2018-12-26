@@ -14,6 +14,7 @@
  *@property Teaching_model mTeaching
  * @property  Publication_model mPublication*
  * @property  Gallery_model mGallery
+ * @property Social_media_model mSocial
  */
 
 class Portfolio extends CI_Controller
@@ -31,6 +32,7 @@ class Portfolio extends CI_Controller
         $this->load->model("Gallery_model","mGallery");
         $this->load->model('Service_model','mService');
         $this->load->model('Contact_model','mContact');
+        $this->load->model("Social_media_model","mSocial");
     }
 
     /**
@@ -51,7 +53,7 @@ class Portfolio extends CI_Controller
         'interest' =>$this->mResearch->get_all_interest(),
         'publication' =>$this->mPublication->get_publication(),
         'gallery' => $this->mGallery->get_gallery(),
-        'social_icon'=> $this->mBanner->get_socail_media_all(),
+        'social_icon'=> $this->mSocial->get_socail_media_all(),
         'service_part'=> $this->mService->get_services(),
         'address'=> $this->mContact->get_cont_add()
     );

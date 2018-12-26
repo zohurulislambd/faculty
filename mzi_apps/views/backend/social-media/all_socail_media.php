@@ -18,16 +18,16 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
-                <div class="panel-heading">Socail media list </div>
+                <div class="panel-heading">Social media list </div>
                 <div class="panel-body">
                     <table data-toggle="table">
                         <thead>
                         <tr>
                             <th> ID</th>
-                            <th>Socail Media Class</th>
-                            <th>Socail Media Link</th>
+                            <th>Social Media Class</th>
+                            <th>Social Media Link</th>
                             <th>Action</th>
-                            <th><a href="<?php echo base_url('Banner/add_socail_media_link');?>"><button class="btn-small btn-success">Add Social Media Item</button></a></th>
+                            <th><a href="<?php echo base_url('Social_media/add_socail_media_link');?>"><button type="button" class="btn btn-success btn-sm">Add Social Media Item</button></a></th>
                         </tr>
                         </thead>
                         <tbody>
@@ -39,8 +39,8 @@
                                 <td><?= $record->class_name; ?></td>
                                 <td><?= $record->link; ?></td>
                                 <td>
-                                    <a href="<?= base_url('Banner/edit_socail_media_link/'.$record->id) ?>"><button>Edit</button></a>
-                                    <a href="<?= base_url('Banner/del_socail_media/'.$record->id) ?>" onclick="return confirm('Are you deleting data!!!')"><button>Detele</button></a>
+                                    <a href="<?= base_url('Social_media/edit_socail_media_link/'.$record->id) ?>"><button type="button" class="btn btn-warning btn-sm">Edit</button></a>
+                                    <a href="<?= base_url('Social_media/del_socail_media/'.$record->id) ?>" onclick="return confirm('Are you deleting data!!!')"><button type="button" class="btn btn-danger btn-sm">Detele</button></a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

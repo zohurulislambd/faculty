@@ -72,9 +72,10 @@
 
         <div class="social-icons">
             <ul>
-                <li><a href="#"><i class="icon-facebook"></i></a></li>
-                <li><a href="#"><i class="icon-twitter"></i></a></li>
-                <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                <?php foreach ($social_icon as $data): ?>
+                    <li><a href="#"><i class="<?= $data->class_name; ?>"></i></a></li>
+                <?php endforeach; ?>
+
             </ul>
         </div>
     </div>
@@ -632,7 +633,7 @@
                             <div class="col-md-8">
                                 <h2 class="title">Tell Me your Opinion</h2>
 
-                                    <form action="#" method="post">
+                                    <form action="<?= base_url("Contact/contact_us"); ?>" method="post">
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label for="name">Name : </label>
@@ -656,8 +657,9 @@
                                                <label for="message"> Enter your opinion</label>
                                                <textarea name="message" id="message" class="form-control"  cols="10" rows="4" placeholder="Enter Message"></textarea>
 
-                                               <br><button type="submit" class="btn btn-large btn-success">Submit </button>
+                                               <br><input type="submit" class="btn btn-large btn-success" value="Submit">
                                            </div>
+
                                         </div>
                                     </form>
 

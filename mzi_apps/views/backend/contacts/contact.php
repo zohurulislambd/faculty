@@ -46,7 +46,7 @@
                                 <td><?= $record->subject; ?></td>
                                 <td><?= substr($record->message,0,60); ?></td>
                                 <td>
-                                    <a href="<?= base_url('Contact/del_cont/'.$record->id) ?>" onclick="return confirm('Your are deleting this item!')"><button class="btn-danger">Delete</button></a>
+                                    <a href="<?= base_url('Contact/del_cont/'.$record->id) ?>" onclick="return confirm('Your are deleting this item!')"><button type="button" class="btn btn-danger btn-sm">Delete</button></a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>

@@ -57,41 +57,6 @@ public function change_bnr_cont($id){
 
 
 
-/*==========socail media section start=========*/
-
-public function get_socail_link(){
-    $data =  array(
-       'post'=> $this->mBanner->get_socail_media_all()
-    );
-    master_view('backend/banner/all_socail_media',$data);
-}
-
-public function add_socail_media_link(){
-    if (is_submitted()){
-         $this->validation->set_rules('class_name','Front Awesome class name','required');
-         $this->validation->set_rules('link','url link','required');
-        $this->mBanner->add_socail_media();
-        redirect('Banner/get_socail_link');
-    }
-    master_view('backend/banner/add_socail_media');
-    }
-
-    public function edit_socail_media_link($id){
-        if (is_submitted()){
-            $this->mBanner->edit_socail_media($id);
-            redirect('Banner/get_socail_link');
-        }
-        $data= array(
-            'editable'=>$this->mBanner->get_single_socail_media($id)
-        );
-        master_view('backend/banner/edit_socail_media',$data);
-    }
-
-    public function del_socail_media($id){
-        $this->mBanner->delete_socail($id);
-        redirect('Banner/get_socail_link');
-    }
-
 
 }
 

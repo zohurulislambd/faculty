@@ -8,6 +8,7 @@
  * @property CI_Form_validation validation
  * @property CI_Input input
  *  @property CI_Session session
+ * @property CI_Email  email
  */
 
 class Contact extends CI_Controller
@@ -17,6 +18,8 @@ class Contact extends CI_Controller
         parent::__construct();
         $this->load->model('Contact_model','mContact');
         $this->load->library(array("form_validation" => "validation"));
+        $this->load->library('email');
+        $this->load->helper('download');
         if (!$this->session->userdata('is_logged')){
             redirect('Authentication/login');
         }
@@ -34,8 +37,9 @@ class Contact extends CI_Controller
 
     public function contact_us(){
         $data = array("is_postback" => false,"msg" => '');
-        if (is_submitted()){
 
+
+        if (is_submitted()){
             $data["is_postback"] = true;
 
             $this->validation->set_rules('name','Name','required');
@@ -54,10 +58,51 @@ class Contact extends CI_Controller
             {
                 $data["msg"] = "Done";
             }
+
+            $config['protocol']    = 'smtp';
+
+            $config['smtp_host']    = 'ssl://smtp.gmail.com';
+
+            $config['smtp_port']    = '465';
+
+            $config['smtp_timeout'] = '7';
+
+            $config['smtp_user']    = 'nure.tkh@gmail.com';
+
+            $config['smtp_pass']    = 'gmailnuretkh';
+
+            $config['charset']    = 'utf-8';
+
+            $config['newline']    = "\r\n";
+
+            $config['mailtype'] = 'text'; // or html
+
+            $config['validation'] = TRUE; // bool whether to validate email or not
+
+            $this->email->initialize($config);
+
+
+            $this->email->from('nure.tkh@gmail.com', 'sender_name');
+            $this->email->to('zohurul.tkh@gmail.com');
+
+
+            $this->email->subject('Email Test');
+
+            $this->email->message('Testing the email class.');
+
+            if ( ! $this->email->send())
+            {
+                die("Tomato");
+            }else{
+                $this->email->send();
+            }
+
+
             redirect($_SERVER['HTTP_REFERER']);
 //            master_view('fontend/main', $data);
         }
     }
+
 
     public function del_cont($id){
         $this->mContact->del_contact($id);

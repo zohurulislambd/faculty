@@ -8,6 +8,15 @@
     ga('send', 'pageview');
 
 </script>
+<!--<script type="text/javascript">
+    $(function(){
+        $('.downloadable').click(function(){
+
+            window.location.href = "<?php /*echo site_url('CONTROLLER_NAME/file_download') */?>?file_name="+ $(this).attr('href');
+        });
+    });
+
+</script>-->
 </body>
 
 </html>

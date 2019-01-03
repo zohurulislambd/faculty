@@ -80,4 +80,7 @@ class About_model extends CI_Model
         $this->db->delete('personal_skill',array('id' => $id));
     }
 
+
+
+
 }

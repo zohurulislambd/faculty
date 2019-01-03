@@ -8,6 +8,7 @@
  * @property CI_Form_validation validation
  * @property  CI_Upload upload
  * @property CI_Session  session
+ * @property CI_Input input
  */
 
 class About extends CI_Controller
@@ -21,9 +22,12 @@ class About extends CI_Controller
             parent::__construct();
             $this->load->library(["Form_validation"=>"validation"]);
             $this->load->model("About_model","mAbout");
+            $this->load->helper('download');
             if (!$this->session->userdata('is_logged')){
                 redirect('Authentication/login');
             }
+
+
         }
     public function about_cont (){
        $data = array(
@@ -117,6 +121,9 @@ class About extends CI_Controller
             $this->mAbout->delete($id);
             redirect("About/personal_skill");
         }
+
+
+
 
 
 }

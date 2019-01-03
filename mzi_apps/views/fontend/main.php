@@ -63,7 +63,8 @@
                     <li class="external">
                         <a href="#">
                             <div class="icon icon-download-alt"></div>
-                            <div class="text">Download CV</div>
+                            <div class="text"><a class="downloadable" href="<?php echo base_url("uploads/certificate.pdf")?>" target="_blank">
+                                    Download CV </a></div>
                         </a>
                     </li>
                 </ul>
@@ -75,7 +76,6 @@
                 <?php foreach ($social_icon as $data): ?>
                     <li><a href="#"><i class="<?= $data->class_name; ?>"></i></a></li>
                 <?php endforeach; ?>
-
             </ul>
         </div>
     </div>

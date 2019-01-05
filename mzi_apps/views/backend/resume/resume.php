@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-right">
-                        <a href="<?= base_url("Teaching/add_teaching"); ?>"><button type="button" class="btn btn-sm btn-success">Add Teaching</button></a>
+                        <a href="<?= base_url("Resume/add_resume"); ?>"><button type="button" class="btn btn-sm btn-success">Add Resume</button></a>
                     </div>
                 </div>
                 <div class="panel-body">
@@ -43,7 +43,7 @@
                             <tr>
                                 <td><?= $srl++ ?></td>
                                 <td><?= $record->title; ?></td>
-                                <td><?= $record->resume; ?></td>
+                                <td><?= $record->resume_file; ?></td>
                                 <td>
                                     <a href="<?= base_url('Resume/edit_resume/'.$record->id) ?>"><button type="button" class="btn btn-warning btn-sm ">Edit</button></a>
                                     <a href="<?= base_url('Resume/del_resume/'.$record->id) ?>" onclick="return confirm('Your are deleting this item!')"><button type="button" class="btn btn-danger btn-sm">Delete</button></a>

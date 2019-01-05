@@ -6,7 +6,7 @@
  * Time: 3:20 PM
  * @property CI_Input input
  * @property Resume_model mResume
- * @property CI_Upload upload*
+ * @property CI_Upload upload
  * @property CI_Form_validation validation
  * @property CI_Session session
  */
@@ -43,14 +43,40 @@ class Resume extends CI_Controller
         force_download($name, $data);
     }*/
     public function add_resume(){
-        $data["upload_error"]="";
+            $data["upload_error"]="";
+            if (is_submitted()){
+                $this->validation->set_rules('title','Resume title','required');
+            }
+            $config= array(
+                'upload_path' => './uploads/',
+                'allowed_types' => 'pdf|cvs|jpeg|png|jpg|gif',
+                'max_size' => '1024',
+                'max_width' => '1920',
+                'max_height' => '1600',
+                'encrypt_name' => false,
+            );
+            $this->load->library('upload',$config);
+            $this->upload->initialize($config);
 
+            if ($this->validation->run()){
+                if ($this->upload->do_upload('resume_file')){
+                    $data['massage']= "Portfolio added successful!!";
+                }else{
+                    $data['upload_error']=$this->upload->display_errors();
+                }
+                $this->mResume->save_resume();
+                redirect("Resume/all_resume");
+            }
+            master_view("backend/resume/add-resume",$data);
+        }
+    public function edit_resume($id){
+        $data["upload_error"]="";
         if (is_submitted()){
-            $this->validation->set_rules('title','Resume Title','required');
+            $this->validation->set_rules('title','Resume title');
         }
         $config= array(
             'upload_path' => './uploads/',
-            'allowed_types' => 'gif|jpg|jpeg|png',
+            'allowed_types' => 'pdf|csv',
             'max_size' => '1024',
             'max_width' => '1920',
             'max_height' => '1600',
@@ -59,15 +85,27 @@ class Resume extends CI_Controller
         $this->load->library('upload',$config);
         $this->upload->initialize($config);
 
-        if ($this->validation->run()){
-            if ($this->upload->do_upload('resume')){
-                $data['massage']= "Portfolio added successful!!";
+        if ($this->upload->do_upload('resume_file')){
+            if ($this->validation->run()){
+                $this->mResume->edit_resume_item($id);
+                $data['massage']= "Resume Update successful!!";
+                redirect("Resume/all_resume");
+
             }else{
-                $data['upload_error']=$this->upload->display_errors();
+                print_r($this->upload->display_errors());
+                return;
             }
-            $this->mResume->save_resume();
-            redirect("Resume/all_resume");
         }
-        master_view("backend/resume/add-resume",$data);
+        $data= array(
+            'editable'=>$this->mResume->get_single_resume($id)
+        );
+        master_view("backend/resume/edit_resume",$data);
     }
+
+    public function del_resume($id)
+    {
+        $this->mResume->del_resume_item($id);
+        redirect("Resume/all_resume");
+    }
+
 }

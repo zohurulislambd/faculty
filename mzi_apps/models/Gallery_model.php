@@ -49,8 +49,6 @@ class gallery_model extends CI_Model
 
     /*test edit image */
 
-
-
     public function del_gallery_item($id){
         $this->db->delete('gallery',array('id'=>$id));
     }

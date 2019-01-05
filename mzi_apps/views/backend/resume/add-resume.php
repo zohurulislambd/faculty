@@ -21,11 +21,15 @@
                 <div class="panel-body">
                     <div class="col-md-6">
 <!--                        --><?php //echo $error;?>
-                        <form action="" enctype="multipart/form-data">
+                        <form action="" method="post" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="title">Title</label>
+                                <input type="text" class="form-control" name="title" id="title"/>
+                            </div>
                         <div class="form-group">
-                            <label for="resume">Featured Image</label>
-                            <input name="resume" id="resume" type="file"/>
-                            <p class="help-block">Gallery feature destination size must be max 600px*400px.</p>
+                            <label for="resume_file">Resume file</label>
+                            <input name="resume_file" id="resume_file" type="file"/>
+                            <p class="help-block">Resume file here</p>
 
                             <!--                                --><?php // echo $data['upload_error'];?>
                             <button type="submit" class="btn btn-sm btn-success" >Submit</button>

@@ -38,18 +38,24 @@ class Resume_model extends CI_Model
     public function save_resume()
     {
         $post = $this->input->post(null, true);
-        $post['resume'] = $this->upload->data('file_name');
+        $post['resume_file'] = $this->upload->data('file_name');
         $this->db->insert('resume',$post);
     }
 
-    public function edit_gallery_item($id){
+    public function edit_resume_item($id){
         $post = $this->input->post(null, true);
-        $post['resume'] = $this->upload->data('file_name');
+        $post['resume_file'] = $this->upload->data('file_name');
 
         //delete previus image code
         $oldData = $this->db->get_where("resume",array('id'=>$id))->row();
         $oldFileName = $oldData->project_feature;
-        unlink(BASEPATH."./uploads/$oldFileName");
+        unlink(BASEPATH."../uploads/$oldFileName");
         $this->db->update('resume',$post, array('id'=>$id));
     }
+
+    public function del_resume_item($id)
+    {
+        $this->db->delete('resume',array('id'=>$id));
+    }
+
 }

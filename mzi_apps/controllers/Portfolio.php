@@ -15,6 +15,7 @@
  * @property  Publication_model mPublication*
  * @property  Gallery_model mGallery
  * @property Social_media_model mSocial
+ * @property Resume_model mResume
  */
 
 class Portfolio extends CI_Controller
@@ -33,6 +34,7 @@ class Portfolio extends CI_Controller
         $this->load->model('Service_model','mService');
         $this->load->model('Contact_model','mContact');
         $this->load->model("Social_media_model","mSocial");
+        $this->load->model("Resume_model","mResume");
     }
 
     /**
@@ -55,7 +57,8 @@ class Portfolio extends CI_Controller
         'gallery' => $this->mGallery->get_gallery(),
         'social_icon'=> $this->mSocial->get_socail_media_all(),
         'service_part'=> $this->mService->get_services(),
-        'address'=> $this->mContact->get_cont_add()
+        'address'=> $this->mContact->get_cont_add(),
+            'resume'=>$this->mResume->get_cv()
     );
 
     $this->load->view('fontend/common/header',$data);

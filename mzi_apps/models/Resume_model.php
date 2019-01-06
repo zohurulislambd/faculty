@@ -46,10 +46,9 @@ class Resume_model extends CI_Model
         $post = $this->input->post(null, true);
         $post['resume_file'] = $this->upload->data('file_name');
 
-        //delete previus image code
         $oldData = $this->db->get_where("resume",array('id'=>$id))->row();
-        $oldFileName = $oldData->project_feature;
-        unlink(BASEPATH."../uploads/$oldFileName");
+        $oldFileName = $oldData->image;
+        unlink(BASEPATH."./uploads/$oldFileName");
         $this->db->update('resume',$post, array('id'=>$id));
     }
 
@@ -57,5 +56,6 @@ class Resume_model extends CI_Model
     {
         $this->db->delete('resume',array('id'=>$id));
     }
+
 
 }

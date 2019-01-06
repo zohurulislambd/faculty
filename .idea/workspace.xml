@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22cf74a6-102f-4646-bb91-19ab60ec0cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bab2ed82-2450-4a2c-bb14-37fb1d31a89c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bab2ed82-2450-4a2c-bb14-37fb1d31a89c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mzi_apps/controllers/Resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/controllers/Resume.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/models/Gallery_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/models/Gallery_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mzi_apps/models/Resume_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/models/Resume_model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/resume/add-resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/resume/add-resume.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/02edb08b82aab1cc5bb6ac167e326618.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/116_Pabna_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/3a5b8b4644921734ef98acfbb9dc3762.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/4f9fe5402eaaa94d832ea98c70f03b5e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/certificate.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/dfdeda1274e67ddf0652729160b79d1d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/f70f43cb8f3cecffdda3c0d7785dc930.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/tournament_registration_form.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,23 +66,65 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.29149115">
+    <splitter split-orientation="horizontal" split-proportion="0.7306094">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1105">
-                  <caret line="65" column="122" selection-start-line="65" selection-start-column="122" selection-end-line="65" selection-end-column="122" />
+                <state relative-caret-position="443">
+                  <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Contact.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Resume.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="47" column="77" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="77" />
+                <state relative-caret-position="408">
+                  <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="454">
+                  <caret line="60" column="19" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#6#493#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/main.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2815">
+                  <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Gallery.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="562">
+                  <caret line="89" column="9" selection-start-line="76" selection-start-column="7" selection-end-line="89" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#6#231#0#PHP" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -82,28 +132,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="488">
-                  <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+                <state relative-caret-position="403">
+                  <caret line="37" selection-start-line="37" selection-end-line="37" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/add-resume.php">
+            <entry file="file://$PROJECT_DIR$/mzi_apps/models/Logo_model.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="335">
-                  <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-                  <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-                  <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+                <state relative-caret-position="471">
+                  <caret line="58" selection-start-line="58" selection-end-line="58" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="das://bab2ed82-2450-4a2c-bb14-37fb1d31a89c/schema/faculty_info/table/resume">
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
+            <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Logo.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="539">
+                  <caret line="55" column="13" selection-start-line="42" selection-start-column="12" selection-end-line="55" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -111,17 +159,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="918">
-                  <caret line="54" column="48" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="48" />
+                <state relative-caret-position="544">
+                  <caret line="47" column="172" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="179" />
                 </state>
               </provider>
             </entry>
@@ -133,8 +172,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mzi_apps/models/Resume_model.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="454">
-                  <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+                <state relative-caret-position="590">
+                  <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -145,8 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>employment</find>
-      <find>Research Projects</find>
       <find>get_project</find>
       <find>edit_employment</find>
       <find>all_teaching</find>
@@ -174,6 +211,9 @@
       <find>file_name</find>
       <find>pdf</find>
       <find>csv</find>
+      <find>downloadable</find>
+      <find>logo</find>
+      <find>don</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,13 +254,10 @@
         <option value="$PROJECT_DIR$/mzi_apps/models/Social_model.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/common/sidebar.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/social-media/all_socail_media.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" />
         <option value="$PROJECT_DIR$/../../php/php.ini" />
-        <option value="$PROJECT_DIR$/mzi_apps/controllers/Contact.php" />
         <option value="$PROJECT_DIR$/mzi_apps/controllers/Social_media.php" />
         <option value="$PROJECT_DIR$/mzi_apps/controllers/Cv_download.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Social_media_model.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/fontend/common/footer.php" />
         <option value="$PROJECT_DIR$/mzi_apps/controllers/About.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/About_model.php" />
@@ -229,11 +266,14 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/mzi_apps/config/mimes.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Gallery_model.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php" />
-        <option value="$PROJECT_DIR$/mzi_apps/controllers/Resume.php" />
         <option value="$PROJECT_DIR$/mzi_apps/views/backend/resume/add-resume.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php" />
         <option value="$PROJECT_DIR$/mzi_apps/models/Resume_model.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Resume.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/views/fontend/main.php" />
+        <option value="$PROJECT_DIR$/mzi_apps/controllers/Contact.php" />
       </list>
     </option>
   </component>
@@ -251,6 +291,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +303,12 @@
               <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
               <item name="faculty" type="462c0819:PsiDirectoryNode" />
               <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faculty" type="462c0819:PsiDirectoryNode" />
+              <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
@@ -287,29 +334,12 @@
               <item name="faculty" type="462c0819:PsiDirectoryNode" />
               <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="resume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="faculty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="mzi_apps" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="fontend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,16 +410,18 @@
       <workItem from="1546491694278" duration="13856000" />
       <workItem from="1546680596194" duration="7143000" />
       <workItem from="1546687798650" duration="794000" />
+      <workItem from="1546751848294" duration="7760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160223000" />
+    <option name="totallyTimeSpent" value="167983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23714653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1844473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,20 +469,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Research.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="145" column="13" selection-start-line="135" selection-start-column="11" selection-end-line="145" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/edit-research.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="132" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/models/Research_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -576,24 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3128">
           <caret line="184" column="29" selection-start-line="184" selection-start-column="9" selection-end-line="184" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -684,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/research/add-research.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -706,34 +703,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Gallery.php">
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Gallery_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="94" column="5" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="94" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#231#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="341">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/add-resume.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="122" selection-start-line="65" selection-start-column="122" selection-end-line="65" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="510">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -744,40 +726,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/gallery/add_gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/edit_resume.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="403">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/add-resume.php">
+    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Logo_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
+        <state relative-caret-position="471">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mzi_apps/models/Gallery_model.php">
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Logo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="30" />
+        <state relative-caret-position="539">
+          <caret line="55" column="13" selection-start-line="42" selection-start-column="12" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="89" column="9" selection-start-line="76" selection-start-column="7" selection-end-line="89" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#231#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2815">
+          <caret line="70" column="31" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#493#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/backend/resume/resume.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="172" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="179" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/models/Resume_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        <state relative-caret-position="590">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Resume.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="47" column="77" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="77" />
+        <state relative-caret-position="408">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/views/fontend/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mzi_apps/controllers/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="121" column="50" selection-start-line="121" selection-start-column="50" selection-end-line="121" selection-end-column="50" />
         </state>
       </provider>
     </entry>

@@ -26,7 +26,7 @@
                     <div class="col-md-6">
                         <form action="" method="post" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label for="title">Gallery Title</label>
+                                <label for="title">Resume Title</label>
                                 <input name="title" id="title" class="form-control" type="text" value="<?= $editable->title ?>" />
                             </div>
 

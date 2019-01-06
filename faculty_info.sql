@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 19, 2018 at 01:41 PM
+-- Generation Time: Jan 06, 2019 at 12:30 PM
 -- Server version: 10.1.36-MariaDB
 -- PHP Version: 7.2.10
 
@@ -45,7 +45,7 @@ CREATE TABLE `about` (
 --
 
 INSERT INTO `about` (`id`, `head_title`, `title`, `main_cont`, `skill_title`, `skill_tag`, `my_feature`, `fig_title`, `fig_subtitle`) VALUES
-(1, 'Bio', 'What I know1', 'A social psychologist and marketer, <strong><i>Jennifer Doe</i></strong> is the General Atlantic Professor of Marketing and Ormond Family Faculty at Stanford University’s Graduate School of Business. Her research spans time, money and happiness. She focuses on questions such as: What actually makes people happy, as opposed to what they think makes them happy? <br><br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.', 'Programming language', 'HTML5, CSS3, Javascript, jQuery, Any Css Framework', '25f496687f81a2c073c4fd53227ac596.jpg', 'Jenifer Deo', 'Lecturer of Stanfort University');
+(1, 'Bio', 'What I know1', 'A social psychologist and marketer, <strong><i>Jennifer Doe</i></strong> is the General Atlantic Professor of Marketing and Ormond Family Faculty at Stanford University’s Graduate School of Business. Her research spans time, money and happiness. She focuses on questions such as: What actually makes people happy, as opposed to what they think makes them happy? <br><br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.', 'Programming language', 'HTML5, CSS3, Javascript, jQuery, Any Css Framework', 'bb9d1688ac7e24e5903d9e4d5fd073a5.jpg', 'Jenifer Deo', 'Lecturer of Stanfort University');
 
 -- --------------------------------------------------------
 
@@ -114,7 +114,9 @@ INSERT INTO `contacts` (`id`, `name`, `email`, `phone`, `subject`, `message`) VA
 (2, 'Zohurul', 'zohurul@gmail.com', '54564564564', 'Need webs ite', 'I have a company so need a website'),
 (3, 'Md. Zohurul Islam', 'zohurul.tkh@gmail.com', '01739382243', 'Testing', ' This is web site test'),
 (4, 'Md. Zohurul Islam', 'admin@gmail.com', '01739382243', 'Testing', 'sadgasgasg'),
-(5, 'farhan', 'zohurul@gmail.com', '345654', 'Testing', 'dfghfdghfdg');
+(6, 'sattar mama', 'sattarmama@gmail.com', '123456789', 'Coffee', 'Are you take coffee?'),
+(7, 'sattar mama', 'adfa@gad.com', '123456789', 'Coffeee', 'nihasfn hiadf h'),
+(8, 'Tour', 'nure.tkh@gmail.com', '12345678901', 'This', 'w fas adfas');
 
 -- --------------------------------------------------------
 
@@ -135,7 +137,7 @@ CREATE TABLE `contact_address` (
 INSERT INTO `contact_address` (`id`, `title`, `main_cont`) VALUES
 (2, 'Address', 'sharif mansion 56-57, motijheel c/a dhaka 1000'),
 (3, 'Mail ', 'zohurulislambd1@gmail.com'),
-(4, 'Phone', '+88 01871 074984, +88 01739 382243');
+(4, 'Phone', '+88 01871 074984 <li> +88 01739 382243 </li>');
 
 -- --------------------------------------------------------
 
@@ -208,6 +210,33 @@ INSERT INTO `employment` (`id`, `designation`, `company`, `job_start_year`, `res
 (2, 'Lecturer', 'Techknow heaven LTD', '2012 ', 'Web site design and Website development.', '2016'),
 (3, 'Lecturer', 'Daffodil International University', '2016', 'Web site design and Website development.', '2018'),
 (4, 'Lecturer', 'Dhaka University', '2010', 'Teaching and l;dsafjklgashjklghklhgkldfhsklgdfg', '2016');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `gallery`
+--
+
+CREATE TABLE `gallery` (
+  `id` int(11) NOT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `project_link` varchar(200) DEFAULT NULL,
+  `short_description` varchar(200) DEFAULT NULL,
+  `gallery_feature` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `gallery`
+--
+
+INSERT INTO `gallery` (`id`, `title`, `project_link`, `short_description`, `gallery_feature`) VALUES
+(3, 'Image title', '', '', '02.jpg'),
+(5, 'Team Critix', '', '', '03.jpg'),
+(6, 'Image title', '', '', '04.jpg'),
+(15, 'This is iamge title ', '', '', '76c4a6bf5780d08d28034633843becc6.jpg'),
+(19, 'This is post title 2222', '', '', 'f312b159a9e4578c604fdb2d16ccda0a.jpg'),
+(21, 'This is Mr. Zohurul', 'http://mzi.websector.xyz/', 'Click for more information', 'a81263f31b465390495ebc4cfdbc6b42.jpg'),
+(22, 'Thjlhsjkldg', '', '', '7185aad463d9c382ac1e738fe8d88932.jpg');
 
 -- --------------------------------------------------------
 
@@ -315,35 +344,6 @@ INSERT INTO `personal_skill` (`id`, `skill_progress_title`, `skill_progress_limi
 -- --------------------------------------------------------
 
 --
--- Table structure for table `project`
---
-
-CREATE TABLE `project` (
-  `id` int(11) NOT NULL,
-  `project_name` varchar(100) DEFAULT NULL,
-  `project_link` varchar(200) DEFAULT NULL,
-  `short_desc` varchar(200) DEFAULT NULL,
-  `project_feature` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `project`
---
-
-INSERT INTO gallery (`id`, title, `project_link`, short_description, gallery_feature) VALUES
-(3, 'This is project', 'http://techknowheaven.com/', 'TKH  is a IT firm of Bangladesh', 'c15d0298513e8b87f5afe4ad2585b6f4.jpg'),
-(5, 'Team Critix', 'http://teamcritix.com/', 'Team Critix is the official Gaming Clan Team', 'de0c59539b778cdbcd96815a03beccda.jpg'),
-(6, 'Professor Dr. Raqibul Anwar', 'http://professorraqibulanwar.com/', 'Medical Service website of Professor Dr. Raqibul Anwar', '2c1ef7d41d21218bbd471a5cdc53dcec.jpg'),
-(7, 'World Communication Internet Service', 'http://worldbd.net/', 'World Communication Internet Service Provider (ISP) Company.', 'e009f5190512490c80b96a07ed83ea10.jpg'),
-(8, 'Junipreneur|', 'http://junipreneur.com/', 'Junipreneur is a platform through which we will take care of every student through personal training,....', 'df51a624ea2f9be373f73f7cab128d6d.jpg'),
-(9, 'Dolphin Digital', 'https://dolphindigital.net/', 'Dolphin Digital is a time demand initiative of Dolphin Computers Limited which......', '353d0fd2e2bdd2b5eb154426c6163e03.jpg'),
-(10, ' Monwarul Islam Rebel', 'http://rebelmonwar.com/', 'Positive Life With Monwarul Islam Rebel', '3e33a07a872fcfa0041bfecb4bb75113.png'),
-(11, 'Belal Khan Personal website', 'http://belalkhan.net/', 'Belal Khan\r\nMusic only makes me stronger. Music speaks to the heart in ways words cannot express.', '261119461f188de27fed066e8c944924.png'),
-(12, 'Sector of web triangle', 'http://sectorofwebtriangle.com/', 'ector of Web Triangle is a complete IT solution company. We are the ideal Graphic Design, Online marketing (SEO, SMM), software development....', '22620b04b2a956185cb9339e1277cd62.png');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `publication`
 --
 
@@ -363,9 +363,12 @@ CREATE TABLE `publication` (
 --
 
 INSERT INTO `publication` (`id`, `title`, `author`, `type`, `book_info`, `photo`, `sub_title`, `description`) VALUES
-(2, 'Zohurul_____ Cultivating admiration in brands: Warmth,', 'Nure alam vi', 'Languestic', ' Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194', 'p5.jpg', 'Proven strategies for harnessing the power of social media to drive social change', 'Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
-(4, 'vfkhjfklhj', 'kldghjdfkl', 'klhkldfjl', 'dfhjkldfj', NULL, NULL, 'fhjklfjkdyjhklfgjhklfjkljhkl\r\n'),
-(7, 'westwetrss', 'sdgasdg', 'Jounal Papers', 'asdgasdg', NULL, NULL, 'asdgasdgasdg');
+(2, 'Zohurul_____ Cultivating admiration in brands: Warmth,', 'Nure alam vi', 'Journal Papers', ' Journal of Consumer Psychology, Volume 22, Issue 2, April 2012, Pages 191-194', 'jennifer-doe9.jpg', 'Proven strategies for harnessing the power of social media to drive social change', 'Many books teach the mechanics of using Facebook, Twitter, and YouTube to compete in business. But no book addresses how to harness the incredible power of social media to make a difference. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'),
+(15, 'publication title', 'gdsfgsdfgx 1  111', 'Journal Papers', 'gsdfgsdgfsd 111', 'jennifer-doe7.jpg', 'sd hfhfdhfdfh', 'fdh fh dfghghghghghghghghghghghghd     dfffffffffffffffffffffffffffffffffgh dghfgh'),
+(18, 'sdfgdf 11111', 'gdsfgsdfgx 1  111', 'Jounal Papers', 'gsdfgsdgfsd 111', '', NULL, 'sfgsdfgsdf 21234 222 '),
+(19, 'sdfgsdagsdg', 'sdgsdfghsdfg', 'Jounal Papers', 'sdghsdghsdghsdg', 'Nobel_Prize14.png', 'sdghjdgsh', 'sdfhsdfhsdfh'),
+(20, 'Preclinical Endodnotics', 'zohurul', 'Jounal Papers', 'publish date:12.12.2015. ', 'Nobel_Prize15.png', 'Very short description of the project.', 'hsdjkgjksdblkshdjg\r\nbjksdgjkjsdghjksdghjksdjkgjksdgjksdjkgjksdagjksdghjksdajk\r\n]bsdhjkgfsdjk jksd jkgsdjkhnjsdhhjghsdnhgh'),
+(21, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,', 'zohurul', 'Book Chapters', 'asdgklskldagklsjdklgskldjgksajdgkljskldgjklsadg', 'jennifer-doe10.jpg', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ...', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ... The first word, “Lorem,” isn\'t even a word; instead it\'s a piece of the word “dolorem,” meaning pain, suffering, or sorrow');
 
 -- --------------------------------------------------------
 
@@ -388,8 +391,28 @@ CREATE TABLE `research_project` (
 INSERT INTO `research_project` (`id`, `title`, `sub_title`, `project_image`, `project_full_descrip`) VALUES
 (1, 'Title of Preject 111', 'Very short description of the project.', 'de920f76cb0e2b223274cd10955c10eb.png', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n'),
 (2, 'Title of Preject', 'Very short description of the project.', 'e4e7a6cb208564841852d516cb2368c8.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. '),
-(3, 'TITLE', 'SUBTITLE', 'bc2bda417afd7909bb0bba05a4e8c754.jpg', 'DA SSFASDFDAFD'),
-(4, 'asdfasdfasdf', 'asdfasdfasdfasd', '966af495e861569851c8e684514796f7.png', 'asdfsdfasdfsadfsadfsad  fasf sd fasf');
+(3, 'TITLE', 'SUBTITLE', 'bb9d1688ac7e24e5903d9e4d5fd073a5.jpg', 'DA SSFASDFDAFD'),
+(4, 'asdfasdfasdf', 'asdfasdfasdfasd', '966af495e861569851c8e684514796f7.png', 'asdfsdfasdfsadfsadfsad  fasf sd fasf'),
+(5, 'asdgasdg', 'sdgasdg', 'Nobel_Prize9.png', 'sdgsadg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `resume`
+--
+
+CREATE TABLE `resume` (
+  `id` int(11) NOT NULL,
+  `resume_file` varchar(150) DEFAULT NULL,
+  `title` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `resume`
+--
+
+INSERT INTO `resume` (`id`, `resume_file`, `title`) VALUES
+(11, 'Illumination.ppt', 'This is my Resume 1');
 
 -- --------------------------------------------------------
 
@@ -432,9 +455,9 @@ CREATE TABLE `socail_media` (
 --
 
 INSERT INTO `socail_media` (`id`, `class_name`, `link`) VALUES
-(1, 'fa fa-facebook', 'https://www.facebook.com/zohurulislambd'),
-(2, 'fa fa-twitter', 'https://twitter.com/Zohurul43'),
-(3, 'fa fa-linkedin', 'https://www.linkedin.com/in/zohurul-islam-49a541115/');
+(1, 'icon-facebook', 'https://www.facebook.com/zohurulislambd'),
+(2, 'icon-twitter', 'https://twitter.com/Zohurul43'),
+(3, 'icon-linkedin', 'https://www.linkedin.com/in/zohurul-islam-49a541115/');
 
 --
 -- Indexes for dumped tables
@@ -490,6 +513,12 @@ ALTER TABLE `employment`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `gallery`
+--
+ALTER TABLE `gallery`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `history_teaching`
 --
 ALTER TABLE `history_teaching`
@@ -521,12 +550,6 @@ ALTER TABLE `personal_skill`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `project`
---
-ALTER TABLE gallery
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `publication`
 --
 ALTER TABLE `publication`
@@ -536,6 +559,12 @@ ALTER TABLE `publication`
 -- Indexes for table `research_project`
 --
 ALTER TABLE `research_project`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `resume`
+--
+ALTER TABLE `resume`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -576,7 +605,7 @@ ALTER TABLE `banner_cont`
 -- AUTO_INCREMENT for table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `contact_address`
@@ -601,6 +630,12 @@ ALTER TABLE `education`
 --
 ALTER TABLE `employment`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `gallery`
+--
+ALTER TABLE `gallery`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `history_teaching`
@@ -633,22 +668,22 @@ ALTER TABLE `personal_skill`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `project`
---
-ALTER TABLE gallery
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
---
 -- AUTO_INCREMENT for table `publication`
 --
 ALTER TABLE `publication`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `research_project`
 --
 ALTER TABLE `research_project`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `resume`
+--
+ALTER TABLE `resume`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `services`

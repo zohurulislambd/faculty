@@ -49,7 +49,7 @@ class Resume extends CI_Controller
             }
             $config= array(
                 'upload_path' => './uploads/',
-                'allowed_types' => 'pdf|cvs|jpeg|png|jpg|gif',
+                'allowed_types' => 'pdf|cvs|jpeg|png|jpg|gif|ppt|doc|docx',
                 'max_size' => '1024',
                 'max_width' => '1920',
                 'max_height' => '1600',
@@ -71,16 +71,16 @@ class Resume extends CI_Controller
         }
     public function edit_resume($id){
         $data["upload_error"]="";
-        if (is_submitted()){
+        if (!empty($_POST)){
             $this->validation->set_rules('title','Resume title');
         }
         $config= array(
             'upload_path' => './uploads/',
             'allowed_types' => 'pdf|csv',
-            'max_size' => '1024',
+            'max_size' => '2048',
             'max_width' => '1920',
             'max_height' => '1600',
-            'encrypt_name' => true,
+            'encrypt_name' => false,
         );
         $this->load->library('upload',$config);
         $this->upload->initialize($config);
@@ -88,9 +88,8 @@ class Resume extends CI_Controller
         if ($this->upload->do_upload('resume_file')){
             if ($this->validation->run()){
                 $this->mResume->edit_resume_item($id);
-                $data['massage']= "Resume Update successful!!";
-                redirect("Resume/all_resume");
-
+                $data['massage']= "Portfolio Update successful!!";
+                redirect("Resume/resume_all");
             }else{
                 print_r($this->upload->display_errors());
                 return;

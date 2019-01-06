@@ -63,7 +63,7 @@
                     <li class="external">
                         <a href="#">
                             <div class="icon icon-download-alt"></div>
-                            <div class="text"><a class="downloadable" href="<?php echo base_url("uploads/certificate.pdf")?>" target="_blank">
+                            <div class="text"><a href="<?php echo base_url("uploads/").$resume[0]->resume_file; ?>" target="_blank">
                                     Download CV </a></div>
                         </a>
                     </li>

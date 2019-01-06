@@ -35,9 +35,8 @@ class Contact extends CI_Controller
         $this->load->view('backend/common/footer');*/
     }
 
-    public function contact_us(){
+   /* public function contact_us(){
         $data = array("is_postback" => false,"msg" => '');
-
 
         if (is_submitted()){
             $data["is_postback"] = true;
@@ -96,12 +95,43 @@ class Contact extends CI_Controller
             }else{
                 $this->email->send();
             }
-
-
             redirect($_SERVER['HTTP_REFERER']);
-//            master_view('fontend/main', $data);
         }
     }
+    */
+    /*test*/
+
+    function sendMail()
+    {
+        $config = Array(
+            'protocol' => 'smtp',
+            'smtp_host' => 'ssl://smtp.googlemail.com',
+            'smtp_port' => 465,
+            'smtp_user' => 'zohurul.tkh@gmail.com', // change it to yours
+            'smtp_pass' => 'mzitkh135', // change it to yours
+            'mailtype' => 'html',
+            'charset' => 'iso-8859-1',
+            'wordwrap' => TRUE
+        );
+
+        $message = '';
+        $this->load->library('email', $config);
+        $this->email->set_newline("\r\n");
+        $this->email->from('zohurul.tkh@gmail.com'); // change it to yours
+        $this->email->to('zohurulislambd1@gmail.com');// change it to yours
+        $this->email->subject('Hello Zohurul Islam');
+        $this->email->message($message);
+        if($this->email->send())
+        {
+            echo 'Email sent.';
+        }
+        else
+        {
+            show_error($this->email->print_debugger());
+        }
+
+    }
+
 
 
     public function del_cont($id){

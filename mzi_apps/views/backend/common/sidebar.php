@@ -40,9 +40,16 @@
         <li class="#"><a href="<?= base_url('Research/all_interest');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Interested List</a></li>
         <li class="#"><a href="<?= base_url('Publication/all_publication');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Publications List</a></li>
 
-        <li class="#"><a href="<?= base_url('Teaching/all_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Current Teaching</a></li>
-        <li class="#"><a href="<?= base_url('Teaching/all_history_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Teaching History</a></li>
+     <li class="parent">
+         <a data-toggle="collapse" href="#sub-item-4">
+             <span><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Teaching Section
+         </a>
+         <ul class="children collapse" id="sub-item-4">
+             <li class="#"><a href="<?= base_url('Teaching/all_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Current Teaching</a></li>
+             <li class="#"><a href="<?= base_url('Teaching/all_history_teaching');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Teaching History</a></li>
 
+         </ul>
+     </li>
         <li class="#"><a href="<?= base_url('Gallery/all_gallery');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Gallerys</a></li>
         <li class="#"><a href="<?= base_url('Service/service_cont');?>"> <svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Services</a></li>
 
@@ -57,8 +64,8 @@
             </ul>
         </li>
 
-        <li class="#"><a href="widgets.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
+        <li class="#"><a href="<?= base_url('Resume/all_resume') ?>"><svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Resume / CV</a></li>
     </ul>
-<!--    <div class="attribution"> Design  and Develop by <a href="#">Zohurul Islam</a></div>-->
+    <div class="attribution"> Design  and Develop by <a href="#">Zohurul Islam</a></div>
 </div><!--/.sidebar-->
 

@@ -632,8 +632,7 @@
                             </div>
                             <div class="col-md-8">
                                 <h2 class="title">Tell Me your Opinion</h2>
-
-                                    <form action="<?= base_url("Contact/contact_us"); ?>" method="post">
+                                    <form action="<?= base_url("Contact/sendMail"); ?>" method="post">
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label for="name">Name : </label>
@@ -654,9 +653,8 @@
                                              </div>
 
                                            <div class="form-group">
-                                               <label for="message"> Enter your opinion</label>
+                                               <label for="message"> Enter your opinion :</label>
                                                <textarea name="message" id="message" class="form-control"  cols="10" rows="4" placeholder="Enter Message"></textarea>
-
                                                <br><input type="submit" class="btn btn-large btn-success" value="Submit">
                                            </div>
 

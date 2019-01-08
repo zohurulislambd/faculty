@@ -29,10 +29,6 @@ class Contact extends CI_Controller
             'post'=>$this->mContact->get_contact()
         );
         master_view("backend/contacts/contact",$data);
-       /* $this->load->view('backend/common/header');
-        $this->load->view('backend/common/sidebar');
-       $this->load->view('backend/contacts/contact',$data);
-        $this->load->view('backend/common/footer');*/
     }
 
    /* public function contact_us(){
@@ -101,7 +97,7 @@ class Contact extends CI_Controller
     */
     /*test*/
 
-    function sendMail()
+    public function sendMail()
     {
         $config = Array(
             'protocol' => 'smtp',
@@ -129,10 +125,7 @@ class Contact extends CI_Controller
         {
             show_error($this->email->print_debugger());
         }
-
     }
-
-
 
     public function del_cont($id){
         $this->mContact->del_contact($id);

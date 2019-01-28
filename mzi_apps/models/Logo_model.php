@@ -30,7 +30,7 @@ class Logo_model extends CI_Model
         }return array();
     }
     public function get_single_logo($id){
-        $query = $this->db->get_where("logo",array("id" => $id));
+        $query = $this->db->get_where("logo",['id'=>$id]);
         if ($query-> num_rows() > 0){
             return $query->row();
         }
@@ -47,13 +47,19 @@ class Logo_model extends CI_Model
         $this->db->insert('logo',$data);
     }*/
 /*change logo section*/
-    public function edit_logo($id){
+    public function edit_logo($id, $image = null){
         $post = $this->input->post(null, true);
-        $post['image'] = $this->upload->data('file_name');
+//        $post['image'] = $this->upload->data('file_name');
+        $post['image'] = isset($image) ? $image : $this->upload->data('file_name');
+
         //delete previus image code
         $oldData = $this->db->get_where("logo",array('id'=>$id))->row();
         $oldFileName = $oldData->image;
-        unlink(BASEPATH."./uploads/$oldFileName");
+//        unlink(BASEPATH."./uploads/$oldFileName");
+//        $oldFileName= $oldData->image;
+        if(!empty($this->upload->data('file_name'))) {
+            unlink(BASEPATH . "../uploads/$oldFileName");
+        }
         $this->db->update('logo',$post, array('id'=>$id));
     }
 

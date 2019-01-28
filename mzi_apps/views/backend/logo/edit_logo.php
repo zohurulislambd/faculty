@@ -25,16 +25,18 @@
                         <form action="" method="post" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label>Logo Title</label>
-                                <input name="logo_title" type="text" value="<?= $editable->logo_title ?>">
+                                <input name="logo_title" type="text" value="<?= set_value('logo_title'), $editable->logo_title ?>">
                             </div>
                             <div class="form-group">
                                 <label>Slogan</label>
-                                <input name="slogan" type="text" value="<?= $editable->slogan ?>">
+                                <input name="slogan" type="text" value="<?= set_value('slogan'), $editable->slogan ?>">
                             </div>
                             <div class="form-group">
                                 <label>Featured Image</label>
-                                <input name="image" type="file"  value="<?=base_url('/uploads/')?> <?= set_value("image",$editable->image) ?>" enctype="multipart/form-data"/>
+                                <input name="image" type="file"  value="<?= set_value('image'), $editable->image ?>" />
 
+                                <input type="hidden" onchange="previewFile()" value="<?= set_value('image'), $editable->image ?>"><br>
+                                <img src="<?= base_url('uploads/').$editable->image; ?>" height="150" alt="Image preview...">
                                 <p class="help-block">Logo destination size must be max 160px*60px.</p>
                             </div>
 
@@ -48,3 +50,5 @@
     </div><!-- /.row -->
 
 </div><!--/.main-->
+
+
